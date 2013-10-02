@@ -36,3 +36,5 @@ alias which-command=whence
 alias zshrc='/usr/bin/vim ~/.zshrc; source ~/.zshrc'
 alias vi='/usr/bin/vim'
 alias svim='sudo /usr/bin/vim'
+
+source /usr/share/git/completion/git-prompt.sh
