@@ -22,9 +22,7 @@ alias install='sudo clyde -S'
 alias l='ls -lha --color=auto'
 alias lsorphans='sudo pacmatic -Qdt'
 alias p='sudo pacman'
-alias c='sudo clyde'
-alias b='sudo bauerbill'
-alias pp='sudo pacmatic'
+alias pp='sudo pacaur'
 alias y='yaourt'
 alias reboot='s reboot'
 alias halt='s halt'
@@ -36,5 +34,6 @@ alias which-command=whence
 alias zshrc='/usr/bin/vim ~/.zshrc; source ~/.zshrc'
 alias vi='/usr/bin/vim'
 alias svim='sudo /usr/bin/vim'
+alias trailers='clear && figlet -c Movie Trailers && youtube-viewer -C --std-input=:q --results=20 -cv UCi8e0iOVk1fEOogdfu4YgfA'
 
 source /usr/share/git/completion/git-prompt.sh
